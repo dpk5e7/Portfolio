@@ -77,7 +77,7 @@ h4 {
 main {
   display: flex;
   flex: 1 1 0;
-  max-width: 1920px;
+  /* max-width: 1920px; */
   /* flex-wrap: wrap; */
 }
 
@@ -104,7 +104,8 @@ section {
   padding: 20px;
   color: var(--text-color);
   background-color: var(--section-bg-color);
-  max-width: 1000px;
+  max-width: 1920px;
+  /* margin-right: 24px; */
 }
 
 section p {
@@ -138,10 +139,21 @@ article {
   border-width: 1px;
   border-radius: var(--border-radius);
   padding: 10px;
-  flex: 0 0 350px;
+  flex: 0 0 372px;
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
-  max-width: 350px;
+  /* width: 372px; */
+  max-width: 372px;
+}
+
+.first-article {
+  flex: 0 1 744px;
+  max-width: 744px;
+  min-width: 372px;
+}
+
+article:hover {
+  box-shadow: 10px 10px 5px #444444;
 }
 
 article header {
@@ -187,8 +199,15 @@ footer a:hover {
 
 /* Tablets */
 @media screen and (max-width: 992px) {
+  first-article {
+    flex: 0 0 372px;
+    width: 50%;
+    max-width: 372px;
+  }
+
   article {
     width: 50%;
+    max-width: 372px;
   }
 }
 
@@ -207,7 +226,14 @@ footer a:hover {
     padding: 0px 6px 12px 6px;
   }
 
+  first-article {
+    flex: 0 0 372px;
+    width: 100%;
+    max-width: 372px;
+  }
+
   article {
     width: 100%;
+    max-width: 372px;
   }
 }
