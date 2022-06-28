@@ -139,17 +139,16 @@ article {
   border-width: 1px;
   border-radius: var(--border-radius);
   padding: 10px;
-  flex: 0 0 372px;
+  flex: 0 0 33.333%;
   box-shadow: 10px 10px 5px #aaaaaa;
   margin: 20px;
-  /* width: 372px; */
   max-width: 372px;
+  min-width: 372px;
 }
 
 .first-article {
-  flex: 0 1 744px;
+  flex: 0 1 100%;
   max-width: 744px;
-  min-width: 372px;
 }
 
 article:hover {
@@ -199,15 +198,9 @@ footer a:hover {
 
 /* Tablets */
 @media screen and (max-width: 992px) {
-  first-article {
-    flex: 0 0 372px;
-    width: 50%;
-    max-width: 372px;
-  }
-
+  first-article,
   article {
-    width: 50%;
-    max-width: 372px;
+    flex: 0 0 50%;
   }
 }
 
@@ -226,14 +219,8 @@ footer a:hover {
     padding: 0px 6px 12px 6px;
   }
 
-  first-article {
-    flex: 0 0 372px;
-    width: 100%;
-    max-width: 372px;
-  }
-
+  first-article,
   article {
-    width: 100%;
-    max-width: 372px;
+    flex: 0 0 100%;
   }
 }
