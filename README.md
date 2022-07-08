@@ -1,6 +1,6 @@
-# Module 02 Challenge
+# Portfolio
 
-The purpose of this challenge is to build a portfolio.
+Module 02 Challenge for the Denver University Bootcamp.  The purpose of this challenge is to build a portfolio.
 
 ## Description
 
