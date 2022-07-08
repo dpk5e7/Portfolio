@@ -44,8 +44,8 @@ The use of a modern web browser.
 
 ### Screenshots
 
-![Screenshot 1](https://dpk5e7.github.io/module02-challenge/assets/Screenshots/screenshot1.jpg)
-![Screenshot 2](https://dpk5e7.github.io/module02-challenge/assets/Screenshots/screenshot2.jpg)
+![Screenshot 1](./assets/Screenshots/screenshot1.jpg)
+![Screenshot 2](./assets/Screenshots/screenshot2.jpg)
 
 ## Authors
 
