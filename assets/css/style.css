@@ -3,8 +3,8 @@
   --header-bg-color: #13293d;
   --header-text-color: white;
   --text-color: black;
-  --bg-color: #C0C0C0;
-  --section-bg-color: #F5F5F5;
+  --bg-color: #c0c0c0;
+  --section-bg-color: #f5f5f5;
   --border-radius: 10px;
 }
 
@@ -146,11 +146,6 @@ article {
   min-width: 372px;
 }
 
-.first-article {
-  flex: 0 1 100%;
-  max-width: 744px;
-}
-
 article:hover {
   box-shadow: 10px 10px 5px #444444;
 }
@@ -219,8 +214,10 @@ footer a:hover {
     padding: 0px 6px 12px 6px;
   }
 
-  first-article,
   article {
     flex: 0 0 100%;
+    min-width: none;
+    padding: auto;
+    margin: auto;
   }
 }
