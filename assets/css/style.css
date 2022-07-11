@@ -40,7 +40,7 @@ header {
 nav ul {
   display: flex;
   justify-content: space-between;
-  min-width: 300px;
+  /* min-width: 300px; */
 }
 
 nav a {
@@ -216,8 +216,14 @@ footer a:hover {
 
   article {
     flex: 0 0 100%;
+    padding: 2px;
+    margin: 2px;
+  }
+}
+
+/* Small smartphones  */
+@media screen and (max-width: 576px) {
+  article {
     min-width: none;
-    padding: auto;
-    margin: auto;
   }
 }
