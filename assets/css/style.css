@@ -5,7 +5,8 @@
   --text-color: black;
   --bg-color: #c0c0c0;
   --section-bg-color: #f5f5f5;
-  --border-radius: 10px;
+  --border-radius: 8px;
+  --inner-border-radius: 6px;
 }
 
 * {
@@ -90,6 +91,7 @@ aside {
 
 aside img {
   border-radius: var(--border-radius);
+  box-shadow: 6px 6px 3px #aaaaaa;
 }
 
 .sections {
@@ -138,20 +140,20 @@ article {
   border-style: solid;
   border-width: 1px;
   border-radius: var(--border-radius);
-  padding: 10px;
+  padding: 0px;
   flex: 0 0 33.333%;
-  box-shadow: 10px 10px 5px #aaaaaa;
-  margin: 20px;
-  max-width: 372px;
-  min-width: 372px;
+  box-shadow: 6px 6px 3px #bbbbbb;
+  margin: 12px;
+  max-width: 350px;
+  min-width: 350px;
 }
 
 article:hover {
-  box-shadow: 10px 10px 5px #444444;
+  box-shadow: 6px 6px 3px #999999;
 }
 
 article header {
-  border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+  border-radius: var(--inner-border-radius) var(--inner-border-radius) 0px 0px;
   padding: 6px;
   text-align: center;
   width: 100%;
@@ -172,7 +174,6 @@ article > p {
 
 article img {
   width: 100%;
-  border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
 footer {
@@ -216,7 +217,6 @@ footer a:hover {
 
   article {
     flex: 0 0 100%;
-    padding: 2px;
     margin: 2px;
   }
 }
